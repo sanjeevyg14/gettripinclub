@@ -1,0 +1,274 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A group of friends laughing around a bonfire at night on a beach",
+      "imageUrl": "https://images.unsplash.com/photo-1687370139318-951abbe9d082?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmVhY2glMjBib25maXJlfGVufDB8fHx8MTc2MDc2MTk0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach bonfire"
+    },
+    {
+      "id": "hero-2",
+      "description": "A car driving on a scenic coastal road with mountains in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1760210110390-a3884961817a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2FzdGFsJTIwZHJpdmV8ZW58MHx8fHwxNzYwNzkwOTE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coastal drive"
+    },
+    {
+      "id": "gokarna-1",
+      "description": "Om beach in Gokarna, India, with its iconic Om shape and beautiful sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1708881974169-18cbf775c324?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxHb2thcm5hJTIwT218ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Gokarna Om"
+    },
+    {
+      "id": "gokarna-2",
+      "description": "A person surfing a wave in the blue ocean waters of Gokarna",
+      "imageUrl": "https://images.unsplash.com/photo-1465199308303-08e6bc3fa443?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBzdXJmaW5nfGVufDB8fHx8MTc2MDc4NTM4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person surfing"
+    },
+    {
+      "id": "gokarna-3",
+      "description": "A colorful beachside cafe in Gokarna with a relaxed vibe",
+      "imageUrl": "https://images.unsplash.com/photo-1514053026555-49ce8886ae41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiZWFjaCUyMGNhZmV8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach cafe"
+    },
+    {
+      "id": "gokarna-4",
+      "description": "Trekkers walking along the cliffside path between beaches in Gokarna",
+      "imageUrl": "https://images.unsplash.com/photo-1692026956146-bccba57b1be8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2FzdGFsJTIwdHJla3xlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coastal trek"
+    },
+    {
+      "id": "gokarna-5",
+      "description": "Mirjan Fort in Karnataka, an ancient fort with stone walls and green moss",
+      "imageUrl": "https://images.unsplash.com/photo-1666509320838-6bb0729c498f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YW5jaWVudCUyMGZvcnR8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ancient fort"
+    },
+    {
+      "id": "gokarna-6",
+      "description": "A group of friends sitting together on a beautiful beach",
+      "imageUrl": "https://images.unsplash.com/photo-1583377585350-58a76bfbdb27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmcmllbmRzJTIwYmVhY2h8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "friends beach"
+    },
+    {
+      "id": "wayanad-1",
+      "description": "Lush green tea plantations in Wayanad, Kerala, under a misty sky",
+      "imageUrl": "https://images.unsplash.com/photo-1663139703482-73c1cd891b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8V2F5YW5hZCUyMHRlYXxlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Wayanad tea"
+    },
+    {
+      "id": "wayanad-2",
+      "description": "Soochipara waterfalls in Wayanad cascading down lush green rocks",
+      "imageUrl": "https://images.unsplash.com/photo-1547009917-87cfb648b536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxXYXlhbmFkJTIwd2F0ZXJmYWxsfGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Wayanad waterfall"
+    },
+    {
+      "id": "wayanad-3",
+      "description": "Inside of Edakkal caves in Wayanad with ancient petroglyphs on the walls",
+      "imageUrl": "https://images.unsplash.com/photo-1654179859807-619e4d0201f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxFZGFra2FsJTIwY2F2ZXN8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Edakkal caves"
+    },
+    {
+      "id": "wayanad-4",
+      "description": "A stunning view of the mountains and valley from Lakkidi view point in Wayanad",
+      "imageUrl": "https://images.unsplash.com/photo-1573056994941-091a917f1cae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxXYXlhbmFkJTIwdmlld3BvaW50fGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Wayanad viewpoint"
+    },
+    {
+      "id": "wayanad-5",
+      "description": "A person boating in the serene Pookode Lake, Wayanad",
+      "imageUrl": "https://images.unsplash.com/photo-1672987459218-33d16b106590?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYWtlJTIwYm9hdGluZ3xlbnwwfHx8fDE3NjA3ODcyNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lake boating"
+    },
+    {
+      "id": "wayanad-6",
+      "description": "A beautiful resort room with a view of the green landscape in Wayanad",
+      "imageUrl": "https://images.unsplash.com/photo-1689729738817-fb1f4256769d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXNvcnQlMjByb29tfGVufDB8fHx8MTc2MDc0NTU1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "resort room"
+    },
+    {
+      "id": "coorg-1",
+      "description": "A lush coffee estate in Coorg, with ripe red coffee beans on the branch",
+      "imageUrl": "https://images.unsplash.com/photo-1734120114016-e5bd6b88239b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxDb29yZyUyMGNvZmZlZXxlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Coorg coffee"
+    },
+    {
+      "id": "coorg-2",
+      "description": "Abbey Falls in Coorg, a stunning waterfall surrounded by greenery",
+      "imageUrl": "https://images.unsplash.com/photo-1699167535870-2d2fac93d02c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxDb29yZyUyMHdhdGVyZmFsbHxlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Coorg waterfall"
+    },
+    {
+      "id": "coorg-3",
+      "description": "The scenic viewpoint of Raja's Seat in Madikeri, Coorg, at sunset",
+      "imageUrl": "https://images.unsplash.com/photo-1753096904716-777a52bc0dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxDb29yZyUyMHZpZXdwb2ludHxlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Coorg viewpoint"
+    },
+    {
+      "id": "coorg-4",
+      "description": "Elephants bathing in the river at Dubare Elephant Camp, Coorg",
+      "imageUrl": "https://images.unsplash.com/photo-1614698561117-83d9053f4c14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxEdWJhcmUlMjBlbGVwaGFudHN8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Dubare elephants"
+    },
+    {
+      "id": "sakleshpur-1",
+      "description": "Tents pitched for camping near a serene river in Sakleshpur",
+      "imageUrl": "https://images.unsplash.com/photo-1666803275943-8fc49b6e0f53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyaXZlcnNpZGUlMjBjYW1waW5nfGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "riverside camping"
+    },
+    {
+      "id": "sakleshpur-2",
+      "description": "A group of friends trekking through the green hills of Sakleshpur",
+      "imageUrl": "https://images.unsplash.com/photo-1741873302904-6f0fe7a603df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxTYWtsZXNocHVyJTIwdHJla3xlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Sakleshpur trek"
+    },
+    {
+      "id": "sakleshpur-3",
+      "description": "The unique star-shaped Manjarabad Fort in Sakleshpur, seen from above",
+      "imageUrl": "https://images.unsplash.com/photo-1657532893276-e656a2b87b06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8TWFuamFyYWJhZCUyMGZvcnR8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Manjarabad fort"
+    },
+    {
+      "id": "sakleshpur-4",
+      "description": "A secluded waterfall in the dense forests of Sakleshpur",
+      "imageUrl": "https://images.unsplash.com/photo-1752090793694-992eaaba049c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8U2FrbGVzaHB1ciUyMHdhdGVyZmFsbHxlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Sakleshpur waterfall"
+    },
+    {
+      "id": "chikmagalur-1",
+      "description": "A panoramic view of Mullayanagiri peak in Chikmagalur, with rolling green hills",
+      "imageUrl": "https://images.unsplash.com/photo-1674367815015-43de98f2ec96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxDaGlrbWFnYWx1ciUyMGhpbGxzfGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Chikmagalur hills"
+    },
+    {
+      "id": "chikmagalur-2",
+      "description": "A person trekking on a narrow path on the green hills of Chikmagalur",
+      "imageUrl": "https://images.unsplash.com/photo-1513603732211-995f10c8ac6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoaWxsJTIwdHJla2tpbmd8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hill trekking"
+    },
+    {
+      "id": "chikmagalur-3",
+      "description": "The beautiful Jhari Waterfalls, also known as Buttermilk Falls, in Chikmagalur",
+      "imageUrl": "https://images.unsplash.com/photo-1641989067149-a1e18afe2601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxKaGFyaSUyMHdhdGVyZmFsbHN8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Jhari waterfalls"
+    },
+    {
+      "id": "chikmagalur-4",
+      "description": "A close-up of fresh coffee beans at a plantation in Chikmagalur",
+      "imageUrl": "https://images.unsplash.com/photo-1515694590185-73647ba02c10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2ZmZWUlMjBwbGFudGF0aW9ufGVufDB8fHx8MTc2MDc0NTk1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee plantation"
+    },
+    {
+      "id": "dandeli-1",
+      "description": "A group of people white water rafting on the Kali river in Dandeli",
+      "imageUrl": "https://images.unsplash.com/photo-1628420265482-ca8aa55b8996?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxEYW5kZWxpJTIwcmFmdGluZ3xlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Dandeli rafting"
+    },
+    {
+      "id": "dandeli-2",
+      "description": "A person kayaking peacefully on the Kali river, surrounded by forest",
+      "imageUrl": "https://images.unsplash.com/photo-1714577419068-45189e7bda58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyaXZlciUyMGtheWFraW5nfGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "river kayaking"
+    },
+    {
+      "id": "dandeli-3",
+      "description": "A jungle path in the dense forests of the Dandeli Wildlife Sanctuary",
+      "imageUrl": "https://images.unsplash.com/photo-1534759938750-412a145b0c71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxqdW5nbGUlMjBwYXRofGVufDB8fHx8MTc2MDc0NTk1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jungle path"
+    },
+    {
+      "id": "dandeli-4",
+      "description": "A natural jacuzzi rock formation in the Kali river, Dandeli",
+      "imageUrl": "https://images.unsplash.com/photo-1695734252680-b6d008f4a8a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cml2ZXIlMjByb2Nrc3xlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "river rocks"
+    },
+    {
+      "id": "varkala-1",
+      "description": "The stunning red cliffs of Varkala, Kerala, overlooking the Arabian Sea",
+      "imageUrl": "https://images.unsplash.com/photo-1708149995661-10ddb24e016e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxWYXJrYWxhJTIwY2xpZmZ8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Varkala cliff"
+    },
+    {
+      "id": "varkala-2",
+      "description": "Golden sands and blue waters of Varkala Beach in Kerala",
+      "imageUrl": "https://images.unsplash.com/photo-1706414215854-57483782f49d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxWYXJrYWxhJTIwYmVhY2h8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Varkala beach"
+    },
+    {
+      "id": "varkala-3",
+      "description": "Kayaking through the serene Kappil backwaters near Varkala",
+      "imageUrl": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxLZXJhbGElMjBiYWNrd2F0ZXJzfGVufDB8fHx8MTc2MDc2Nzg5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Kerala backwaters"
+    },
+    {
+      "id": "varkala-4",
+      "description": "A vibrant clifftop cafe with a view of the sea in Varkala",
+      "imageUrl": "https://images.unsplash.com/photo-1612315476143-904de5b78498?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbGlmZnRvcCUyMGNhZmV8ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clifftop cafe"
+    },
+    {
+      "id": "murudeshwar-1",
+      "description": "The giant statue of Lord Shiva in Murudeshwar against a dramatic sky",
+      "imageUrl": "https://images.unsplash.com/photo-1652269105019-cd40be66faba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxNdXJ1ZGVzaHdhciUyMHN0YXR1ZXxlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Murudeshwar statue"
+    },
+    {
+      "id": "murudeshwar-2",
+      "description": "A boat moving through the Sharavathi Kandla Mangrove Boardwalk in Honnavar",
+      "imageUrl": "https://images.unsplash.com/photo-1695660322043-a9fc5ef49e63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuZ3JvdmUlMjBib2F0fGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mangrove boat"
+    },
+    {
+      "id": "murudeshwar-3",
+      "description": "The beautiful hidden Apsarakonda waterfalls near Honnavar",
+      "imageUrl": "https://images.unsplash.com/photo-1656086106986-2f7dbdd681c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoaWRkZW4lMjB3YXRlcmZhbGx8ZW58MHx8fHwxNzYwNzMzODE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hidden waterfall"
+    },
+    {
+      "id": "murudeshwar-4",
+      "description": "A view of the Arabian Sea from Murudeshwar beach",
+      "imageUrl": "https://images.unsplash.com/photo-1606813332135-228593b6e201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBcmFiaWFuJTIwU2VhfGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Arabian Sea"
+    },
+    {
+      "id": "kudremukh-1",
+      "description": "A panoramic view of the rolling green hills and valleys on the Kudremukh trek",
+      "imageUrl": "https://images.unsplash.com/photo-1752604801914-58a908acd622?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxLdWRyZW11a2glMjBoaWxsc3xlbnwwfHx8fDE3NjA3OTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Kudremukh hills"
+    },
+    {
+      "id": "kudremukh-2",
+      "description": "A group of trekkers hiking on a trail in the Western Ghats, India",
+      "imageUrl": "https://images.unsplash.com/photo-1726091983472-a7da2540c492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncm91cCUyMHRyZWtraW5nfGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group trekking"
+    },
+    {
+      "id": "kudremukh-3",
+      "description": "A clear stream flowing through the dense shola forest of Kudremukh National Park",
+      "imageUrl": "https://images.unsplash.com/photo-1512144915806-39e29c5565a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmb3Jlc3QlMjBzdHJlYW18ZW58MHx8fHwxNzYwNzkwNjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forest stream"
+    },
+    {
+      "id": "kudremukh-4",
+      "description": "A lone hiker standing on the peak of Kudremukh, looking at the view",
+      "imageUrl": "https://images.unsplash.com/photo-1541296239751-35023f37d0f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb3VudGFpbiUyMHBlYWt8ZW58MHx8fHwxNzYwNzMzNTc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain peak"
+    },
+    {
+      "id": "10",
+      "description": "Portrait of a smiling young Indian woman",
+      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MDczMDk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "11",
+      "description": "Portrait of a young Indian man with a backpack, smiling",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjA3MzA5NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "12",
+      "description": "Portrait of a happy female traveler with a hat and backpack",
+      "imageUrl": "https://images.unsplash.com/photo-1616439659583-b60cb90a99fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoYXBweSUyMHRyYXZlbGVyfGVufDB8fHx8MTc2MDc5MDYxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy traveler"
+    }
+  ]
+}
