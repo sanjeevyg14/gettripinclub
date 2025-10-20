@@ -2,7 +2,7 @@
 runtime: nodejs20
 build:
   run:
-    - npm ci
+    - npm install --legacy-peer-deps
     - npm run build
   bundle: .next
 run:
