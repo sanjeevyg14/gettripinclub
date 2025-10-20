@@ -1,12 +1,12 @@
 
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/button';
 import { Logo } from './Logo';
 import { cn } from '@/lib/utils';
-import { Menu, X } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import {
   Sheet,
   SheetContent,
@@ -30,7 +30,7 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" aria-label="GetrippinClub Home">
-            <Logo className="h-8 w-auto text-foreground" />
+            <Logo className="text-foreground" />
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
@@ -56,17 +56,12 @@ export const Header = () => {
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background">
-                <div className="p-4">
-                <div className="flex justify-between items-center mb-8">
+              <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background p-4">
+                <div className="mb-8">
                    <Link href="/" aria-label="GetrippinClub Home" onClick={() => setMobileMenuOpen(false)}>
-                      <Logo className="h-8 w-auto" />
+                      <Logo />
                     </Link>
-                    <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)}>
-                      <X className="h-6 w-6" />
-                      <span className="sr-only">Close menu</span>
-                    </Button>
-                  </div>
+                </div>
                   <nav className="flex flex-col gap-6">
                   {navLinks.map((link) => (
                     <Link
@@ -83,7 +78,6 @@ export const Header = () => {
                     <Link href="/#booking">Book Now</Link>
                   </Button>
                 </nav>
-                </div>
               </SheetContent>
             </Sheet>
           </div>

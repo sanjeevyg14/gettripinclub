@@ -24,7 +24,6 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
-import { handleBookingRequest } from '@/app/actions';
 import type { Trip } from '@/lib/types';
 import { Loader2, Minus, Plus } from 'lucide-react';
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover';
@@ -32,6 +31,8 @@ import { Calendar } from './ui/calendar';
 import { cn } from '@/lib/utils';
 import { format } from 'date-fns';
 import { Calendar as CalendarIcon } from 'lucide-react';
+import { db } from '@/lib/firebase'; // Import the db instance
+import { addDoc, collection } from "firebase/firestore"; // Import firestore functions
 
 const bookingSchema = z.object({
   fullName: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -88,12 +89,8 @@ export default function BookingForm({ trips, defaultTripId, showPickupPoint = fa
 
   const onSubmit = (values: BookingFormValues) => {
     startTransition(async () => {
-      const formattedValues = {
-        ...values,
-        preferredDate: format(values.preferredDate, 'PPP'),
-      }
-      const result = await handleBookingRequest(formattedValues);
-      if (result.success) {
+      try {
+        await addDoc(collection(db, "bookings"), values);
         toast({
           title: 'Booking Request Received! 🎉',
           description: `We'll send a payment link to your email & WhatsApp to confirm your spot for the ${currentTrip?.name} trip.`,
@@ -102,10 +99,10 @@ export default function BookingForm({ trips, defaultTripId, showPickupPoint = fa
         form.reset();
         form.setValue('selectedTrip', defaultTripId || (trips.length > 0 ? trips[0].id : ''));
         form.setValue('numberOfTravelers', 1);
-      } else {
+      } catch (error) {
         toast({
           title: 'Uh oh! Something went wrong.',
-          description: result.message || 'There was a problem with your request. Please try again.',
+          description: 'There was a problem with your request. Please try again.',
           variant: 'destructive',
         });
       }
@@ -310,5 +307,3 @@ export default function BookingForm({ trips, defaultTripId, showPickupPoint = fa
     </Form>
   );
 }
-
-    
