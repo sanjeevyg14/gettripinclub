@@ -8,10 +8,17 @@ build:
 run:
   command: npm run start
 env:
-  NEXT_PUBLIC_FIREBASE_API_KEY: "AIzaSyCgNaOEb4BokTscBm_ZzMxt4u8hqWoDzXs"
-  NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "get-trip-in-club.firebaseapp.com"
-  NEXT_PUBLIC_FIREBASE_PROJECT_ID: "get-trip-in-club"
-  NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "get-trip-in-club.firebasestorage.app"
-  NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "245320583967"
-  NEXT_PUBLIC_FIREBASE_APP_ID: "1:245320583967:web:2a90f5991de7e5dfaebe2a"
-  NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID: "G-LGD9N5C5MK"
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: "AIzaSyCgNaOEb4BokTscBm_ZzMxt4u8hqWoDzXs"
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: "get-trip-in-club.firebaseapp.com"
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: "get-trip-in-club"
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: "get-trip-in-club.firebasestorage.app"
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "245320583967"
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: "1:245320583967:web:2a90f5991de7e5dfaebe2a"
+  - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    value: "G-LGD9N5C5MK"
