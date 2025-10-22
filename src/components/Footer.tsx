@@ -23,7 +23,7 @@ const quickLinks = [
 
 const contactInfo = [
     { name: 'support@gettripin.club', icon: Mail, href: 'mailto:support@gettripin.club' },
-    { name: '+91 98765 43210', icon: Phone, href: 'tel:+919876543210' },
+    { name: '+91 91642 90929', icon: Phone, href: 'tel:+919164290929' },
 ]
 
 
@@ -98,7 +98,7 @@ export const Footer = () => {
             <div className='md:col-span-3 text-right md:text-right space-y-2 self-end'>
                  <p className="text-sm font-semibold text-muted-foreground">Made for explorers. Backed by</p>
                  <a href="https://travonex.com" target="_blank" rel="noopener noreferrer" className="inline-block">
-                    <Image src="/travonex-logo.png" alt="Travonex Logo" width={150} height={40} className='w-auto h-8' />
+                    <Image src="/travonex-logo.png" alt="Travonex Logo" width={140} height={140} />
                  </a>
                  <p className="text-xs text-muted-foreground/80">An initiative by Travonex — your weekend adventure partner.</p>
             </div>
