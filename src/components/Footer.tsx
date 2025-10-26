@@ -100,7 +100,7 @@ export const Footer = () => {
                  <a href="https://travonex.com" target="_blank" rel="noopener noreferrer" className="inline-block">
                     <Image src="/travonex-logo.png" alt="Travonex Logo" width={140} height={140} />
                  </a>
-                 <p className="text-xs text-muted-foreground/80">An initiative by Travonex — your weekend adventure partner.</p>
+                 <p className="text-xs text-muted-foreground/80">Powered by Travonex — your weekend adventure partner.</p>
             </div>
         </div>
       </div>
